@@ -1,0 +1,39 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter Notebook checkpoints (if using notebooks)
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+.env/
+*.venv/
+
+# Ignore dataset files (if any)
+data/
+*.csv
+*.tsv
+*.json
+*.zip
+*.tar.gz
+
+# Ignore model checkpoints & logs
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+logs/
+tensorboard_logs/
+
+# Ignore large files (optional)
+*.h5  # HDF5 model files
+*.onnx # ONNX model exports
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code settings (if using VS Code)
+.vscode/
