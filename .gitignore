@@ -22,7 +22,6 @@ data/
 # Ignore model checkpoints & logs
 checkpoints/
 *.pt
-*.pth
 *.ckpt
 logs/
 tensorboard_logs/
