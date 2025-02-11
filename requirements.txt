@@ -160,7 +160,6 @@ threadpoolctl==3.5.0
 tinycss2==1.4.0
 toml==0.10.2
 torch==2.5.1
-torchaudio==2.6.0+cpu
 torchvision==0.20.1
 tornado==6.4.2
 tqdm==4.67.1
